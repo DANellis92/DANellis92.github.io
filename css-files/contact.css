@@ -1,0 +1,15 @@
+#contact {
+  padding: 2em;
+  margin-top: 80vh;
+  height: 60vh;
+}
+
+.contact-text {
+  font-size: 1em;
+  color: lightskyblue;
+  font-family: neonLight;
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+#about {
+  margin-top: 50vh;
+  color: white;
+  min-height: 90vh;
+  padding: 15%;
+}
+
+.intro-text {
+  margin: auto;
+  padding: 15px;
+  width: 50%;
+  border: 5px lightblue solid;
+  border-radius: 5px;
+  text-align: right;
+  overflow: auto;
+}
+
+img {
+  width: 10em;
+  float: left;
+  object-fit: contain;
+}

@@ -1,0 +1,451 @@
+.text-flicker-in-glow-d {
+  -webkit-animation: text-flicker-in-glow 5s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 5s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-a {
+  -webkit-animation: text-flicker-in-glow 2s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 2s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-v {
+  -webkit-animation: text-flicker-in-glow 5s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 5s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-i {
+  -webkit-animation: text-flicker-in-glow 4.5s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 4.5s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-d2 {
+  -webkit-animation: text-flicker-in-glow 2.75s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 2.75s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-n {
+  -webkit-animation: text-flicker-in-glow 3.25s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 3.25s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-e {
+  -webkit-animation: text-flicker-in-glow 6s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 6s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-l1 {
+  -webkit-animation: text-flicker-in-glow 1.5s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 1.5s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-l2 {
+  -webkit-animation: text-flicker-in-glow 2s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 2s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-i1 {
+  -webkit-animation: text-flicker-in-glow 4s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 4s steps(2, end) 0.5s forwards;
+}
+.text-flicker-in-glow-s {
+  -webkit-animation: text-flicker-in-glow 4.8s steps(2, end) 0.5s forwards;
+  animation: text-flicker-in-glow 4.8s steps(2, end) 0.5s forwards;
+}
+
+@font-face {
+  font-family: neonLight;
+  src: url(../assets/Beon.otf);
+}
+
+#navbar {
+  position: sticky;
+  display: block;
+  height: 2em;
+  top: 0;
+  visibility: hidden;
+  text-decoration: none;
+  color: lightskyblue;
+  font-size: 1em;
+  font-family: neonLight;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker-in-glow 4s linear both;
+}
+
+.header-tag {
+  color: lightskyblue;
+  font-size: 3em;
+  font-family: neonLight;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker-in-glow 4s linear both;
+  margin-left: 40%;
+}
+
+#links {
+  float: right;
+  display: block;
+  top: 0;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+#a-links {
+  text-decoration: none;
+  color: lightskyblue;
+  font-size: 1em;
+  font-family: neonLight;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker-in-glow 4s linear both;
+}
+
+#myName {
+  position: sticky;
+  margin: 0;
+  top: 0;
+
+  float: left;
+  font-size: 2em;
+}
+
+#myName.pulled {
+  margin: 0;
+  top: 0;
+  float: left;
+  color: lightskyblue;
+  font-size: 2em;
+  font-family: neonLight;
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker-in-glow 4s linear both;
+}
+
+#letter-d {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+
+#letter-a {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+#letter-v {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+  transition: 1s;
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+#letter-i {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+#letter-d1 {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+#letter-last-n {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+#letter-last-e {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+#letter-last-l1 {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+#letter-last-l2 {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+#letter-last-i {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+#letter-last-s {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+}
+
+#letter-last-n.pulled {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-out-glow 2.5s linear both;
+  animation: text-flicker-out-glow 2.5s linear both;
+}
+#letter-last-e.pulled {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-out-glow 2.5s linear both;
+  animation: text-flicker-out-glow 2.5s linear both;
+}
+#letter-last-l1.pulled {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-out-glow 2.5s linear both;
+  animation: text-flicker-out-glow 2.5s linear both;
+}
+#letter-last-l2.pulled {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-out-glow 2.5s linear both;
+  animation: text-flicker-out-glow 2.5s linear both;
+}
+#letter-last-i.pulled {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-out-glow 2.5s linear both;
+  animation: text-flicker-out-glow 2.5s linear both;
+}
+#letter-last-s.pulled {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-out-glow 2.5s linear both;
+  animation: text-flicker-out-glow 2.5s linear both;
+}
+
+.text-flicker-out-glow {
+  -webkit-animation: text-flicker-out-glow 2.5s linear both;
+  animation: text-flicker-out-glow 2.5s linear both;
+}
+
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+#landing {
+  height: 100vh;
+  width: 100vw;
+  border-bottom: 20vh solid transparent;
+}
+
+.title {
+  position: relative;
+  margin-top: 20vh;
+  margin-bottom: 30vh;
+  text-align: center;
+  text-shadow: 5px 5px black;
+  cursor: default;
+}
+
+.name {
+  display: inline-flex;
+}
+
+.name.pulled {
+  -webkit-animation: rotate-90-left-cw 0.4s linear both;
+  animation: rotate-90-left-cw 0.4s linear both;
+}
+
+#first-name {
+  display: flex;
+}
+
+#last-name {
+  display: flex;
+}
+
+#pull-chain {
+  display: inline-block;
+  position: relative;
+  left: 25px;
+  top: 60px;
+  width: 15px;
+}
+#pull-chain .chain {
+  border-left: 2px dotted lightslategray;
+  height: 3.5em;
+  position: relative;
+}
+#pull-chain .handle {
+  background-color: silver;
+  border: 1px white solid;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+  position: relative;
+  left: -6.9px;
+}
+#pull-chain.pulled .chain {
+  -webkit-animation: bounce-bottom 0.9s both;
+  animation: bounce-bottom 0.9s both;
+}
+#pull-chain.pulled .handle {
+  -webkit-animation: bounce-bottom 0.9s both;
+  animation: bounce-bottom 0.9s both;
+}
+
+#pull-chain.drop {
+  -webkit-animation: tracking-out-contract-bck-bottom 0.8s
+    cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: tracking-out-contract-bck-bottom 0.8s
+    cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.wobble-hor-top {
+  -webkit-animation: bounce-bottom 0.9s both;
+  animation: bounce-bottom 0.9s both;
+}
+
+/* --------------------------
+Pulled animations for first name letters
+-----------------------------*/
+
+#letter-d.move {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  -webkit-animation: text-flicker-out-glow 2.5s linear both;
+  animation: text-flicker-out-glow 2.5s linear both;
+}
+
+#letter-a.move {
+  color: lightskyblue;
+
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  opacity: 1;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+    0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+    0 0 100px rgba(255, 255, 255, 0.1);
+  -webkit-animation: rotate-90-ccw 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: rotate-90-ccw 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+#letter-v.move {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  opacity: 1;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+    0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+    0 0 100px rgba(255, 255, 255, 0.1);
+  -webkit-animation: rotate-v 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s
+    both;
+  animation: rotate-v 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s both;
+}
+#letter-i.move {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  opacity: 1;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+    0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+    0 0 100px rgba(255, 255, 255, 0.1);
+  -webkit-animation: rotate-i 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s
+    both;
+  animation: rotate-i 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s both;
+}
+#letter-d1.move {
+  color: lightskyblue;
+  font-size: 4em;
+  font-family: neonLight;
+
+  -webkit-text-stroke-width: 0.015px;
+  -webkit-text-stroke-color: lightcyan;
+  opacity: 1;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+    0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+    0 0 100px rgba(255, 255, 255, 0.1);
+  -webkit-animation: rotate-d 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s
+    both;
+  animation: rotate-d 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s both;
+}
+
+#addText {
+  font-size: 0.55em;
+  bottom: 0.25em;
+  -webkit-animation: text-flicker-in-glow-new 2s linear both;
+  animation: text-flicker-in-glow-new 2s linear both;
+}
